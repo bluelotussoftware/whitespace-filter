@@ -1,3 +1,18 @@
+/*
+ * Copyright 2017 Blue Lotus Software, LLC.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 package com.bluelotussoftware.servlet.filter;
 
 import com.google.javascript.jscomp.CompilationLevel;
@@ -24,8 +39,8 @@ import javax.servlet.http.HttpServletResponse;
  * This filter is designed to remove white spaces (minify) HTML, CSS, and JS
  * depending on the options enabled in the application initialization.
  *
- * @author John Yeary
- * @version 1.0
+ * @author John Yeary <jyeary@bluelotussoftware.com>
+ * @version 1.0.0
  */
 @WebFilter(filterName = "WhitespaceFilter", urlPatterns = {"/faces/*"},
         initParams = {
