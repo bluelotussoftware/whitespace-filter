@@ -39,7 +39,7 @@ import javax.servlet.http.HttpServletResponse;
  * This filter is designed to remove white spaces (minify) HTML, CSS, and JS
  * depending on the options enabled in the application initialization.
  *
- * @author John Yeary <jyeary@bluelotussoftware.com>
+ * @author John Yeary
  * @version 1.0.0
  */
 @WebFilter(filterName = "WhitespaceFilter", urlPatterns = {"/faces/*"},
